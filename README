@@ -2,3 +2,5 @@ maniacmonitor
 =============
 
 Simple surveillance system using webcam which gets activated upon movement.
+
+Using OpenCv 2.4.3
