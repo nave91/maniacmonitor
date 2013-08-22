@@ -61,7 +61,7 @@ class MotionDetectorInstantaneous():
                     self.trigger_time = instant #Update the trigger_time
                     if instant > started +5:#Wait 5 second after the webcam start for luminosity adjusting etc..
                         print datetime.now().strftime("%b %d, %H:%M:%S"), "Something is moving !"
-			host = '10.42.0.75'
+			host = 'localhost'
 			port = 50000
 			size = 1024
     			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
